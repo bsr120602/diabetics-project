@@ -65,7 +65,7 @@ df.describe()
 
 # In[38]:
 
-
+# Created a updated version of bar graph 
 import matplotlib.pyplot as plt
 import pandas as pd  # Import pandas for DataFrame operations
 
@@ -111,7 +111,7 @@ plt.show()
 
 # In[39]:
 
-
+Created a updated version of pie chart
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -185,7 +185,7 @@ print(X.shape, X_train.shape, X_test.shape)
 
 
 # In[37]:
-
+# Used updated models for better accuracy
 
 from sklearn.linear_model import LogisticRegression
 lr_model = LogisticRegression(solver='liblinear', multi_class='ovr')
